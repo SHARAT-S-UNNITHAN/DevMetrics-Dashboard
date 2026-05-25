@@ -2,8 +2,7 @@
 
 **Open-source GitHub PR analytics tool** for engineering leads and open-source maintainers
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub stars](https://img.shields.io/badge/stars-earn%20one!-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -39,6 +38,21 @@ Charts: Chart.js 4.4.1
 Icons: Inline SVG
 Theming: CSS Custom Properties + localStorage
 Responsive: Mobile-first Flexbox & Grid
+
+📸 Screenshots
+Light Mode
+
+https://screenshots/light-mode.png
+Dark Mode
+
+https://screenshots/dark-mode.png
+Mobile Responsive
+
+https://screenshots/mobile-view.png
+Chart with Tooltip
+
+https://screenshots/chart-detail.png
+
 🚀 Quick Start
 Local Development
 bash
@@ -49,10 +63,10 @@ git clone https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard.git
 # Navigate to project
 cd DevMetrics-Dashboard
 
-# Open in browser (any of these)
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
+# Open in browser
+open index.html  # macOS
+start index.html # Windows
+xdg-open index.html # Linux
 
 GitHub Pages
 
@@ -61,19 +75,19 @@ text
 
 https://sharat-s-unnithan.github.io/DevMetrics-Dashboard/
 
-📸 Screenshots
-Light Mode	Dark Mode
-Screenshot coming soon	Screenshot coming soon
-Mobile View	Chart Detail
-Screenshot coming soon	Screenshot coming soon
 📁 Project Structure
 text
 
 DevMetrics-Dashboard/
-├── index.html          # Complete dashboard (HTML/CSS/JS)
+├── index.html          # Complete dashboard
 ├── README.md           # Documentation
 ├── LICENSE             # MIT License
-└── screenshots/        # Demo images (coming soon)
+└── screenshots/        # Demo images
+    ├── light-mode.png
+    ├── dark-mode.png
+    ├── mobile-view.png
+    ├── chart-detail.png
+    └── repo-selector.png
 
 🎯 Roadmap
 
@@ -87,17 +101,15 @@ DevMetrics-Dashboard/
 
     Webhook support for real-time updates
 
-    Custom date range picker
-
 🤝 Contributing
 
 Contributions are welcome!
 
     Fork the repository
 
-    Create your feature branch (git checkout -b feature/AmazingFeature)
+    Create feature branch (git checkout -b feature/AmazingFeature)
 
-    Commit changes (git commit -m 'Add some AmazingFeature')
+    Commit changes (git commit -m 'Add AmazingFeature')
 
     Push to branch (git push origin feature/AmazingFeature)
 
@@ -105,19 +117,48 @@ Contributions are welcome!
 
 📄 License
 
-Distributed under the MIT License. See LICENSE file for more information.
+MIT © SHARAT S UNNITHAN
 🙏 Acknowledgments
 
     Chart.js for beautiful charts
 
     Google Fonts (Syne, JetBrains Mono)
 
-    Inspired by Linear, Vercel Analytics, and GitHub's native UI
+    Inspired by Linear, Vercel Analytics
 
 📧 Contact
 
-SHARAT S UNNITHAN - @SHARAT-S-UNNITHAN
+SHARAT S UNNITHAN
+GitHub: @SHARAT-S-UNNITHAN
 
 Project Link: https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard
 
+⭐ Star this repository if you find it useful!
+text
 
+
+### **File 3: `LICENSE`**
+Copy this entire block:
+
+```text
+MIT License
+
+Copyright (c) 2026 SHARAT S UNNITHAN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
