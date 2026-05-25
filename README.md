@@ -1,3 +1,4 @@
+```markdown
 # 📊 DevMetrics Dashboard
 
 **Open-source GitHub PR analytics tool** for engineering leads and open-source maintainers
@@ -38,25 +39,28 @@ Charts: Chart.js 4.4.1
 Icons: Inline SVG
 Theming: CSS Custom Properties + localStorage
 Responsive: Mobile-first Flexbox & Grid
+```
 
-📸 Screenshots
-Light Mode
+## 📸 Screenshots
 
-https://screenshots/light-mode.png
-Dark Mode
+### Light Mode
+![Light Mode](screenshots/light-mode.png)
 
-https://screenshots/dark-mode.png
-Mobile Responsive
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png.png)
 
-https://screenshots/mobile-view.png
-Chart with Tooltip
+### Mobile Responsive
+![Mobile View](screenshots/mobile-view.png)
 
-https://screenshots/chart-detail.png
+### Chart with Tooltip
+![Chart Detail](screenshots/chart-detail.png)
 
-🚀 Quick Start
-Local Development
-bash
 
+## 🚀 Quick Start
+
+### Local Development
+
+```bash
 # Clone the repository
 git clone https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard.git
 
@@ -67,17 +71,18 @@ cd DevMetrics-Dashboard
 open index.html  # macOS
 start index.html # Windows
 xdg-open index.html # Linux
+```
 
-GitHub Pages
+### GitHub Pages
 
 The dashboard is automatically deployed at:
-text
-
+```
 https://sharat-s-unnithan.github.io/DevMetrics-Dashboard/
+```
 
-📁 Project Structure
-text
+## 📁 Project Structure
 
+```
 DevMetrics-Dashboard/
 ├── index.html          # Complete dashboard
 ├── README.md           # Documentation
@@ -87,58 +92,50 @@ DevMetrics-Dashboard/
     ├── dark-mode.png
     ├── mobile-view.png
     ├── chart-detail.png
-    └── repo-selector.png
+    
+```
 
-🎯 Roadmap
+## 🎯 Roadmap
 
-    Real GitHub API integration (OAuth)
+- [ ] Real GitHub API integration (OAuth)
+- [ ] Export metrics as CSV/PDF
+- [ ] Team comparison view
+- [ ] Time-range selector (week/month/quarter)
+- [ ] Webhook support for real-time updates
 
-    Export metrics as CSV/PDF
-
-    Team comparison view
-
-    Time-range selector (week/month/quarter)
-
-    Webhook support for real-time updates
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-    Fork the repository
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-    Create feature branch (git checkout -b feature/AmazingFeature)
-
-    Commit changes (git commit -m 'Add AmazingFeature')
-
-    Push to branch (git push origin feature/AmazingFeature)
-
-    Open a Pull Request
-
-📄 License
+## 📄 License
 
 MIT © SHARAT S UNNITHAN
-🙏 Acknowledgments
 
-    Chart.js for beautiful charts
+## 🙏 Acknowledgments
 
-    Google Fonts (Syne, JetBrains Mono)
+- Chart.js for beautiful charts
+- Google Fonts (Syne, JetBrains Mono)
+- Inspired by Linear, Vercel Analytics
 
-    Inspired by Linear, Vercel Analytics
+## 📧 Contact
 
-📧 Contact
+**SHARAT S UNNITHAN**  
+GitHub: [@SHARAT-S-UNNITHAN](https://github.com/SHARAT-S-UNNITHAN)
 
-SHARAT S UNNITHAN
-GitHub: @SHARAT-S-UNNITHAN
+Project Link: [https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard](https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard)
 
-Project Link: https://github.com/SHARAT-S-UNNITHAN/DevMetrics-Dashboard
+---
 
-⭐ Star this repository if you find it useful!
-text
+⭐ **Star this repository if you find it useful!**
+```
 
-
-### **File 3: `LICENSE`**
-Copy this entire block:
+---
 
 ```text
 MIT License
@@ -162,3 +159,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+---
+
